@@ -17,10 +17,10 @@ class SearchBar extends Component {
             <div className="ui segment">
                 <form onSubmit={this.onFormSubmit} className="ui form">
                     <div className="field">
-                        <label>Image Search</label>
-                        <div class="ui icon input" bis_skin_checked="1">
+                        <label>YT Search</label>
+                        <div className="ui icon input" bis_skin_checked="1">
                             <input type="text" placeholder="Search..." ref={this.termRef} />
-                            <i class="circular search link icon"></i>
+                            <i className="circular search link icon"></i>
                         </div>
                     </div>
                     <Button type="submit">Submit</Button>
